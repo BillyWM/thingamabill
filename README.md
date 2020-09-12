@@ -16,4 +16,4 @@ Hex editing but translation focused
 * pointer finder - auto-find probable pointers like 2-byte sequences that only increase
 * markov search - use a language transition table (starting with Japanese) to find probable text sequences
 * entropy-aware search - mark probable areas based on entropy calculation e.g. Shannon Entropy or other metrics
-* code-aware search - analyze probable code vs data (even if CDL hasn't marked) to provide search inside data most likely areas
+* code-aware search - analyze probable code vs data (using disassembly; seaparate to sections CDL has markeD) to provide search inside data most likely areas
